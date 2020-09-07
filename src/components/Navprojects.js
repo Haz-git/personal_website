@@ -4,7 +4,7 @@ import '../css/Navitems.css';
 const Navprojects = () => {
     return (
         <div className='nav-item'>
-            <a>My Projects</a>
+            <a>Projects++</a>
         </div>
     )
 }

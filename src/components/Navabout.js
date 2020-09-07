@@ -4,7 +4,7 @@ import '../css/Navitems.css';
 const Navabout = () => {
     return (
         <div className='nav-item'>
-            <a>About Me</a>
+            <a>Contact Me</a>
         </div>
     )
 }

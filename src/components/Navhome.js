@@ -4,7 +4,9 @@ import '../css/Navitems.css';
 const Navhome = () => {
     return (
         <div className='nav-item'>
-            <a>Harry Zhou</a>
+            <a>
+                <i class="fas fa-house-user"></i>
+            </a>
         </div>
     )
 }

@@ -9,7 +9,7 @@ const Backdropwords = () => {
         <div className="backdrop-container">
             <h1>
                 Hey! I'm Harry. I'm a &nbsp;
-                <TextLoop interval={900}>
+                <TextLoop interval={3000}>
                     <span className="transition-words">FrontEnd Engineer.</span>
                     <span className="transition-words">Web Developer.</span>
                     <span className="transition-words">Masters Candidate.</span>
