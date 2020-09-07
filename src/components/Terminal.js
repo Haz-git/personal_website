@@ -7,9 +7,9 @@ const Terminal = () => {
             <div className='terminal-container'>
                 <div className='header-bar'>
                     <div className='header-dots-container'>
-                        <div className='header-dots-close'></div>
-                        <div className='header-dots-min'></div>
-                        <div className='header-dots-open'></div>
+                        <span className='header-dots-close'></span>
+                        <span className='header-dots-min'></span>
+                        <span className='header-dots-open'></span>
                     </div>
                 </div>
                 <div className='terminal-body'>
