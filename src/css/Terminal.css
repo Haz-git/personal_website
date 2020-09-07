@@ -1,13 +1,15 @@
 .terminal-wrapper {
     background-color: rgb(246, 249, 252);
-    padding: 20px 20px;
+    padding: 20px 40px;
 }
 
 .terminal-container {
     background-color: rgb(24, 24, 24);
-    height: 40rem;
+    height: fit-content;
     width: 100%;
+    max-width: 800px;
     border-radius: 10px;
+    margin: 0 auto;
     filter: drop-shadow(0 0 0.25rem black);
 }
 
@@ -73,7 +75,7 @@
     background-color: lime;
     height: 20px;
     width: 12px;
-    animation: blinker 1s linear infinite;
+    animation: blinker .45s infinite;
 }
 
 @keyframes blinker {
