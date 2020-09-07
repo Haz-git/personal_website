@@ -5,6 +5,5 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     grid-template-columns: 1fr repeat(3, fit-content(100px));
-
 }
 
