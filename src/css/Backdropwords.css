@@ -3,5 +3,8 @@
 }
 
 .backdrop-container h1 {
-    color: skyblue;
+    padding-top: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(116, 127, 224);
+    font-size: 50px;
 }

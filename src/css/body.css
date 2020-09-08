@@ -2,6 +2,17 @@ body {
     background-color: rgb(246, 249, 252);
 }
 
+.header-label {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-label h2 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(116, 127, 224);
+}
+
 .project-container {
     margin-top: 40px;
 }
