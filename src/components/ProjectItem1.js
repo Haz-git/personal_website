@@ -44,18 +44,18 @@ const ProjectItem1 = ({ projTitle, projImg }) => {
                                 </div> */}
                             </div>
                         </Fade>
+                        <Fade bottom>
+                            <div className="project-buttons-container">
+                                <div className="project-button">
+                                    <button className="ui primary button">Live Demo</button>
+                                </div>
+                                <div className="project-button">
+                                    <button className="ui button">View Source</button>
+                                </div>
+                            </div>
+                        </Fade>
                     </div>
                 </div>
-                <Fade bottom>
-                    <div className="project-buttons-container">
-                        <div className="project-button">
-                            <button className="ui primary button">Live Demo</button>
-                        </div>
-                        <div className="project-button">
-                            <button className="ui button">View Source</button>
-                        </div>
-                    </div>
-                </Fade>
             </div>
         </div>    
     )   
