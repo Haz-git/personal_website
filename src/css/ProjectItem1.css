@@ -28,10 +28,7 @@
 
 
 .project-desc {
-    border-left: 2px solid rgb(90, 93, 122);
-    padding-left: 20px;
-    
-    
+    padding-left: 20px;  
 }
 
 .project-desc h4 {
@@ -40,9 +37,6 @@
     font-size: 16px;
 }
 
-.project-img {
-    border-right: 2px solid rgb(90, 93, 122);
-}
 
 .project-img img {
     border-radius: 5px;
@@ -55,16 +49,15 @@
 
 .project-skill-labels {
     margin-top: 20px;
-    padding: 10px 10px;
     display: flex;
     justify-content: center;
     background-color: rgb(90, 93, 122);
-    border-radius: 5px;
+    border-radius: 40px;
 }
 
 .skill-logo-container {
     background-color: rgb(48, 47, 65);
-    padding: 10px 10px;
+    padding: 20px 20px;
 }
 
 .skill-logo-html {
