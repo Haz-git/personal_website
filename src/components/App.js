@@ -1,8 +1,10 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import Navigationbar from './Navigationbar';
 import Backdrop from './Backdrop';
 import Backdropwords from './Backdropwords';
 import Terminal from './Terminal';
+import ProjectItem1 from './ProjectItem1';
 import '../css/body.css';
 
 const App = () => {
@@ -18,6 +20,13 @@ const App = () => {
                 </div>
                 <div>
                     <Terminal />
+                </div>
+                <div className='project-list'>
+                    <div className='project-container'>
+                        <Fade>
+                            <ProjectItem1 />
+                        </Fade>
+                    </div>
                 </div>
             </div>
         </div>

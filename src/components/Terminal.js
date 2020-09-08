@@ -68,7 +68,7 @@ const Terminal = () => {
                         <br />
                         <div className="terminal-text-block inline">
                             <h4>
-                                > Harry.setNewInterview();
+                                > Harry.scheduleInterview();
                                 <div className="blinker-square"></div>
                             </h4>
                         </div>

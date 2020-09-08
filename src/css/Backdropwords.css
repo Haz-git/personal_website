@@ -1,3 +1,7 @@
 .backdrop-container {
     text-align: center;
 }
+
+.backdrop-container h1 {
+    color: skyblue;
+}
