@@ -16,17 +16,39 @@ const App = () => {
             <div>
                 <Backdrop />
                 <div>
-                    <Backdropwords />
+                    <Fade top>
+                        <Backdropwords />
+                    </Fade>
                 </div>
                 <div>
                     <Terminal />
                 </div>
                 <div className='project-list'>
                     <div className='project-container'>
-                        <Fade>
+                        <Fade bottom>
                             <ProjectItem1 />
                         </Fade>
                     </div>
+                    <div className='project-container'>
+                        <Fade bottom>
+                            <ProjectItem1 />
+                        </Fade>
+                    </div>
+                    <div className='project-container'>
+                        <Fade bottom>
+                            <ProjectItem1 />
+                        </Fade>
+                    </div>
+                    <div className='project-container'>
+                        <Fade bottom>
+                            <ProjectItem1 />
+                        </Fade>
+                    </div>
+                    <div className='project-container'>
+                        <Fade bottom>
+                            <ProjectItem1 />
+                        </Fade>
+                    </div> 
                 </div>
             </div>
         </div>

@@ -1,0 +1,35 @@
+.project-card-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 20px;
+    background-color: salmon;
+    border-radius: 4px;
+}
+
+.project-card-header h2 {
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 20px;
+}
+
+.project-desc-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.project-skill-labels {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-button {
+    margin: 20px 10px;
+}
