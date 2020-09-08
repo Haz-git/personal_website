@@ -22,7 +22,7 @@ const ProjectItem1 = ({ projTitle, projImg, projDesc, projReact }) => {
 
 
     return (
-        <>
+        <div className="master-wrapper">
             <div className="project-card-header">
                 <h2>{title}</h2>
             </div>
@@ -70,7 +70,7 @@ const ProjectItem1 = ({ projTitle, projImg, projDesc, projReact }) => {
                     </div>
                 </div>
             </div>
-        </>    
+        </div>    
     )   
 }
 

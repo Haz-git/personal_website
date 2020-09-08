@@ -30,7 +30,9 @@ const App = () => {
                     </Fade>
                 </div>
                 <div className="header-label">
-                    <h2>I have a passion for creating simple, yet beautiful websites and web applications.</h2>
+                    <Fade top>
+                        <h2>I have a passion for creating simple, yet beautiful websites and web applications.</h2>
+                    </Fade>
                 </div>
                 <div>
                     <Fade>
