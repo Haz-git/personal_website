@@ -1,3 +1,6 @@
+.project-card-wrapper {
+    padding: 20px 40px;
+}
 .project-card-container {
     color: rgb(82, 95, 127);
     text-align: center;
@@ -20,12 +23,15 @@
 
 .project-desc-container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
 }
+
 
 .project-desc {
     border-left: 2px solid rgb(90, 93, 122);
     padding-left: 20px;
+    
+    
 }
 
 .project-desc h4 {
@@ -35,26 +41,25 @@
 }
 
 .project-img {
-    background-color: red;
     border-right: 2px solid rgb(90, 93, 122);
 }
 
 .project-img img {
     border-radius: 5px;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     object-fit: fill;
     box-shadow: 0 1px 2px rgba(0, 0, 0,0.07), 0 1px 1px rgba(0,0,0.07);
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .project-skill-labels {
     margin-top: 20px;
-    padding-top: 5px;
+    padding: 10px 10px;
     display: flex;
     justify-content: center;
     background-color: rgb(90, 93, 122);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px;
 }
 
 .skill-logo-container {
@@ -83,8 +88,8 @@
     display: flex;
     justify-content: center;
     background-color: rgb(90, 93, 122);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
 
 }
 
@@ -98,17 +103,26 @@
 }
 
 @media only screen and (max-width: 800px) {
-    project-desc-container {
+
+
+    .project-desc-container {
         display: flex;
         flex-direction: column;
     }
 
-    project-img {
-        background-color: yellow;
+    .project-img {
         border-right: none;
     }
 
-    project-desc {
+    .project-img img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    .project-desc {
+        border-top: 5px solid rgb(90, 93, 122);
         border-left: none;
+        padding-top: 20px;
     }
 }
