@@ -8,13 +8,14 @@
     padding: 20px 20px;
     background-color: #FFFFFF;
     border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0,0.07), 0 1px 1px rgba(0,0,0.07);
-    filter: drop-shadow(0 0 0.25rem rgb(90, 93, 122));
+    filter: drop-shadow(0 0 1rem rgb(90, 93, 122));
 }
 
 .project-card-header h2 {
-    font-family: 'Nunito', sans-serif;
-    padding: 15px 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-bottom: 25px;
+    font-weight: 900;
+    font-size: 35px;
 }
 
 .project-desc-container {
@@ -22,10 +23,43 @@
     grid-template-columns: 50% 50%;
 }
 
+.project-desc {
+    border-left: 2px solid rgb(90, 93, 122);
+    padding-left: 20px;
+}
+
+.project-desc h4 {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+.project-img {
+    background-color: red;
+    border-right: 2px solid rgb(90, 93, 122);
+}
+
+.project-img img {
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+    object-fit: fill;
+    box-shadow: 0 1px 2px rgba(0, 0, 0,0.07), 0 1px 1px rgba(0,0,0.07);
+}
+
 .project-skill-labels {
-    padding-top: 20px;
+    margin-top: 20px;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
+    background-color: rgb(90, 93, 122);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.skill-logo-container {
+    background-color: rgb(48, 47, 65);
+    padding: 10px 10px;
 }
 
 .skill-logo-html {
@@ -48,9 +82,33 @@
 .project-buttons-container {
     display: flex;
     justify-content: center;
+    background-color: rgb(90, 93, 122);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
 }
 
 .project-button {
     margin: 20px 10px;
+    transition-timing-function: ease-in-out;
 }
 
+.project-button:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 800px) {
+    project-desc-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    project-img {
+        background-color: yellow;
+        border-right: none;
+    }
+
+    project-desc {
+        border-left: none;
+    }
+}
