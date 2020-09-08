@@ -1,3 +1,7 @@
 body {
     background-color: rgb(246, 249, 252);
 }
+
+.project-container {
+    margin-top: 40px;
+}

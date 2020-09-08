@@ -1,17 +1,20 @@
 .project-card-container {
+    color: rgb(82, 95, 127);
     text-align: center;
     margin: 0 auto;
     max-width: 900px;
     width: 100%;
     height: fit-content;
     padding: 20px 20px;
-    background-color: salmon;
+    background-color: #FFFFFF;
     border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0,0.07), 0 1px 1px rgba(0,0,0.07);
+    filter: drop-shadow(0 0 0.25rem rgb(90, 93, 122));
 }
 
 .project-card-header h2 {
     font-family: 'Nunito', sans-serif;
-    padding-bottom: 20px;
+    padding: 15px 15px;
 }
 
 .project-desc-container {
@@ -25,6 +28,23 @@
     justify-content: center;
 }
 
+.skill-logo-html {
+    color: rgb(221, 75, 37);
+}
+
+.skill-logo-css {
+    color: rgb(37, 75, 221);
+}
+
+.skill-logo-js {
+    color: rgb(239, 216, 29);
+}
+
+.skill-logo-react {
+    color: rgb(0, 217, 255);
+}
+
+
 .project-buttons-container {
     display: flex;
     justify-content: center;
@@ -33,3 +53,4 @@
 .project-button {
     margin: 20px 10px;
 }
+

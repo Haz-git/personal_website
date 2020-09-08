@@ -10,7 +10,7 @@
     max-width: 900px;
     border-radius: 10px;
     margin: 0 auto;
-    filter: drop-shadow(0 0 0.25rem black);
+    filter: drop-shadow(0 0 1rem rgb(90, 93, 122));
 }
 
 .header-bar {

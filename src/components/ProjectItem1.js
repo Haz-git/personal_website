@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import '../css/ProjectItem1.css';
 
-const ProjectItem1 = () => {
+const ProjectItem1 = ({ projTitle }) => {
+
+    const [title, setTitle] = useState(projTitle);
+
     return (
         <div className="project-card-container">
             <div className="project-card-header">
-                <h2>Sample Project 1</h2>
+                <h2>{title}</h2>
             </div>
+            <hr />
             <div className="project-desc-container">
                 <div className="project-img">
                     <Fade left>
@@ -21,16 +25,16 @@ const ProjectItem1 = () => {
                 </div>
             </div>
             <div className="project-skill-labels">
-                <div className="skill-logo">
+                <div className="skill-logo-html">
                     <i class="fab fa-html5 fa-3x"></i>
                 </div>
-                <div className="skill-logo">
+                <div className="skill-logo-css">
                     <i class="fab fa-css3-alt fa-3x"></i>
                 </div>
-                <div className="skill-logo">
+                <div className="skill-logo-js">
                     <i class="fab fa-js fa-3x"></i>
                 </div>
-                <div className="skill-logo">
+                <div className="skill-logo-react">
                     <i class="fab fa-react fa-3x"></i>
                 </div>
             </div>
