@@ -8,6 +8,7 @@ import ProjectItem1 from './ProjectItem1';
 import virtual_lab_asst from '../imgs/virtual_lab_asst.png';
 import foodFinder from '../imgs/foodFinder.png';
 import oldPortfolioWebsite from '../imgs/oldPortfolioWebsite.png';
+import Connect from './Connect';
 import '../css/body.css';
 
 const projectItemDesc1 = <h4>Like most people, I primarily create webapps to make my daily life easier.<br/><br/> This project was built for timing the numerous activites and experiments I must keep track of during a day in my wet lab--Enter a note in the template provided, input a length of time, and organize many tasks at once.<br/><br/> As this was one of my first major projects using solely HTML5, CSS3, and JS, I learned much about event listeners, generating elements in the DOM, and general layout design!</h4>
@@ -77,6 +78,7 @@ const App = () => {
                         </Fade>
                     </div>
                 </div>
+                <Connect />
             </div>
         </div>
     )
