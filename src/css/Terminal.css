@@ -8,7 +8,7 @@
     height: fit-content;
     width: 100%;
     max-width: 900px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 0 auto;
     filter: drop-shadow(0 0 1rem rgb(90, 93, 122));
 }
@@ -16,8 +16,8 @@
 .header-bar {
     background-color: rgb(73, 71, 66);
     height: 2.2rem;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .header-dots-container {

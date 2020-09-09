@@ -1,9 +1,7 @@
 .nav-container {
     display: grid;
-    background-color: rgb(246, 249, 252);
-    padding: 10px 10px;
-    font-family: 'Nunito', sans-serif;
+    padding: 30px 20px;
     font-weight: 900;
-    grid-template-columns: 1fr repeat(3, fit-content(100px));
+    grid-template-columns: 1fr repeat(3, fit-content(200px));
 }
 

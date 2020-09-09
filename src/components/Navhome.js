@@ -5,7 +5,7 @@ const Navhome = () => {
     return (
         <div className='nav-item'>
             <a>
-                <i class="fas fa-house-user"></i>
+                <i class="fas fa-house-user fa-1.5x"></i>
             </a>
         </div>
     )

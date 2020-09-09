@@ -1,9 +1,19 @@
 .nav-item {
-    padding: 10px 10px;
+    padding: 10px 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
 }
 
 
 .nav-item a:hover {
-    color: red;
+    color: lightblue;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav-item {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 }

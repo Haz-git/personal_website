@@ -4,15 +4,53 @@ body {
 
 .header-label {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .header-label h2 {
     font-family: 'Nunito', sans-serif;
+    color: rgb(84, 97, 128);
+}
+
+.project-headline {
+    margin-top: 100px;
+    text-align: center;
     color: rgb(116, 127, 224);
+}
+
+.project-headline h2 {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(84, 97, 128);
+    font-size: 35px;
+}
+
+.project-headline-line hr{
+    border: 2px solid rgb(116, 127, 224);
+    max-width: 220px;
+    border-radius: 5px;
+}
+
+
+
+.project-list {
+    padding-bottom: 40px;
 }
 
 .project-container {
     margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-label h2 {
+        font-size: 20px;
+    }
+    .project-headline h2 {
+        font-size: 25px;
+    }
+
+    .project-headline-line hr {
+        max-width: 180px;
+    }
 }
